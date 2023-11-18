@@ -15,12 +15,12 @@ function App() {
                 <div class="cover">
                     <div class="gray-shade"></div>
                     <figure>
-                        <img src="images/user_logo.png" class="img-fluid" alt="profile cover"/>
+                        <img src="https://bootdey.com/img/Content/bg1.jpg" class="img-fluid" alt="profile cover"/>
                     </figure>
                     <div class="cover-body d-flex justify-content-between align-items-center">
                         <div>
                             <img class="profile-pic" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="profile"/>
-                            <span class="profile-name">Amiah Burton</span>
+                            <span class="profile-name">Username</span>
                         </div>
                         <div class="d-none d-md-block">
                             <button class="btn btn-primary btn-icon-text btn-edit-profile">
@@ -38,14 +38,14 @@ function App() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-columns mr-1 icon-md">
                                 <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18"></path>
                             </svg>
-                            <a class="pt-1px d-none d-md-block" href="#/">Timeline</a>
+                            <a class="pt-1px d-none d-md-block" href="#/">Newsfeed</a>
                         </li>
                         <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user mr-1 icon-md">
                                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                                 <circle cx="12" cy="7" r="4"></circle>
                             </svg>
-                            <a class="pt-1px d-none d-md-block" href="#/">About</a>
+                            <a class="pt-1px d-none d-md-block" href="#/">Topics</a>
                         </li>
                         <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users mr-1 icon-md">
@@ -54,7 +54,7 @@ function App() {
                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                             </svg>
-                            <a class="pt-1px d-none d-md-block" href="#/">Friends <span class="text-muted tx-12">3,765</span></a>
+                            <a class="pt-1px d-none d-md-block" href="#/">Legislation<span class="text-muted tx-12">12</span></a>
                         </li>
                         <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image mr-1 icon-md">
@@ -62,14 +62,14 @@ function App() {
                                 <circle cx="8.5" cy="8.5" r="1.5"></circle>
                                 <polyline points="21 15 16 10 5 21"></polyline>
                             </svg>
-                            <a class="pt-1px d-none d-md-block" href="#/">Photos</a>
+                            <a class="pt-1px d-none d-md-block" href="#/">Polls</a>
                         </li>
                         <li class="header-link-item ml-3 pl-3 border-left d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video mr-1 icon-md">
                                 <polygon points="23 7 16 12 23 17 23 7"></polygon>
                                 <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                             </svg>
-                            <a class="pt-1px d-none d-md-block" href="#/">Videos</a>
+                            <a class="pt-1px d-none d-md-block" href="#/">Placeholder</a>
                         </li>
                     </ul>
                 </div>
@@ -111,22 +111,18 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <p>Hi! I'm Amiah the Senior UI Designer at Vibrant. We hope you enjoy the design and quality of Social.</p>
+                    <p>Little blub</p>
                     <div class="mt-3">
                         <label class="tx-11 font-weight-bold mb-0 text-uppercase">Joined:</label>
-                        <p class="text-muted">November 15, 2015</p>
+                        <p class="text-muted">Sign_up_date</p>
                     </div>
                     <div class="mt-3">
                         <label class="tx-11 font-weight-bold mb-0 text-uppercase">Lives:</label>
-                        <p class="text-muted">New York, USA</p>
+                        <p class="text-muted">Address</p>
                     </div>
                     <div class="mt-3">
                         <label class="tx-11 font-weight-bold mb-0 text-uppercase">Email:</label>
-                        <p class="text-muted">me@nobleui.com</p>
-                    </div>
-                    <div class="mt-3">
-                        <label class="tx-11 font-weight-bold mb-0 text-uppercase">Website:</label>
-                        <p class="text-muted">www.nobleui.com</p>
+                        <p class="text-muted">email</p>
                     </div>
                     <div class="mt-3 d-flex social-links">
                         <a href="javascript:;" class="btn d-flex align-items-center justify-content-center border mr-2 btn-icon github">
@@ -377,7 +373,7 @@ function App() {
                 <div class="col-md-12 grid-margin">
                     <div class="card rounded">
                         <div class="card-body">
-                            <h6 class="card-title">suggestions for you</h6>
+                            <h6 class="card-title">Follow Suggestions</h6>
                             <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                                 <div class="d-flex align-items-center hover-pointer">
                                     <img class="img-xs rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""/>
